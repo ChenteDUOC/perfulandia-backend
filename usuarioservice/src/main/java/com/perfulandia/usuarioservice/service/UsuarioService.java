@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @Service
-public interface UsuarioService {
+public class UsuarioService {
 
     private final UsuarioRepository repo;
     //Constructor para poder inyectar mi interfaz
